@@ -1,0 +1,33 @@
+h1{
+    background-color: aquamarine;
+    width: 100%;
+    color: black;
+    animation: Anim 8s linear alternate infinite;
+}
+
+@keyframes Anim {
+    from{
+        margin-left: 0%;
+    }
+    to {
+        margin-left: 100%;
+    }
+}
+
+body{
+    width: fit-content;
+    transform: scale(50%);
+    background-color: aliceblue;
+    background-image: url(11.jpg);
+
+    animation: cloud 10s linear infinite;
+}
+
+@keyframes cloud {
+    from{
+        background-position-x: 0px;
+    }
+    to {
+        background-position-x: 1920px;
+    }
+}
